@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FaceDetectMan_browser.jnlp">
+  <information>
+    <title>FaceDetectMan</title>
+    <vendor>Azmi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FaceDetectMan.jar" size="13468" download="eager" />
+    <jar href="lib\opencv-455.jar" size="722802" download="eager" />
+  </resources>
+  <applet-desc  width="0" height="0" main-class="facedetectman.FaceDetectMan"  name="FaceDetectMan" >
+  </applet-desc>
+  <update check="background"/>
+</jnlp>
